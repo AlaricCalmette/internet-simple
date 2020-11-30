@@ -1,0 +1,8 @@
+{
+  "./dev/noop": [
+    {
+      "id": "./.yarn/$$virtual/next-virtual-35d5897357/0/cache/next-npm-10.0.3-642cd45c09-7b4a77f7c3.zip/node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/0.js"
+    }
+  ]
+}
