@@ -1,0 +1,8 @@
+body {
+    margin: 0 8px;
+    background-color: #efefef;
+}
+
+#__next {
+    height: 100vh;
+}
