@@ -1,0 +1,28 @@
+enum Difficulty {
+  hard
+  intermediate
+  easy
+}
+
+type Article {
+  difficulty: Difficulty
+  id: ID!
+  nbOdRead: Int
+  timeToRead: Int
+  title: String
+  summary: String
+  readers: [User] @relation
+}
+
+type User {
+  id: ID!
+  articlesRead: [Article] @relation
+  badges: [Badge] @relation
+}
+
+type Badge {
+  id: ID!
+  condition: String
+  name: String
+  awardees: [User] @relation
+}

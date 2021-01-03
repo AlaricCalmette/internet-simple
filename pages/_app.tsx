@@ -1,7 +1,10 @@
 import '../lib/styles/styles.css';
+import { AppWrapper } from '../lib/context';
 
 export default function MyApp({ Component, pageProps }) {
     return (
-        <Component { ...pageProps } />
+        <AppWrapper>
+            <Component { ...pageProps } />
+        </AppWrapper>
     );
 }
