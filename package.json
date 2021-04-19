@@ -1,6 +1,7 @@
 {
     "name": "internet-simple",
     "dependencies": {
+        "@datadog/browser-rum": "^2.7.4",
         "@material-ui/core": "^4.11.1",
         "@material-ui/icons": "^4.9.1",
         "gray-matter": "^4.0.2",
