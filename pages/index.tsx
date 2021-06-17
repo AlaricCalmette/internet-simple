@@ -11,6 +11,7 @@ interface HomeProps {
 
 const Home = ({ posts, tags }: HomeProps) => {
     const {selectedTag} = UseAppContext();
+    debugger;
     return (
         <Layout tags={tags}>
             <Grid item xs={12}>
